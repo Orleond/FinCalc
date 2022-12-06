@@ -16,7 +16,7 @@ console.log('Период равен ' + period + ' месяцев. Цель з�
 addExpenses = addExpenses.toLowerCase().split(', ');
 console.log(addExpenses);
 
-let budgetDay = Math.floor(money / 30);                 // Дневной бюджет
+let budgetDay = Math.floor(money / 30);                             // Дневной бюджет
 console.log(budgetDay);
 
 alert('Сообщение с любым текстом');
